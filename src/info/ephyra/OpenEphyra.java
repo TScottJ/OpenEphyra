@@ -118,7 +118,9 @@ public class OpenEphyra
     {
         this.dir = dir;
 
-        // CogBot HACK: moved this initialization from main():
+        // Moved this initialization from main() so that this class can
+        // be instantiated and used from another application:
+        
         // set log file and enable logging
         Logger.setLogfile("log/OpenEphyra");
         Logger.enableLogging(true);
