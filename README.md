@@ -18,9 +18,7 @@ https://datamarket.azure.com/dataset/bing/searchweb. Currently, there is
 a free key available that allows up to 5,000 queries per month.
 - Miscelaneous minor fixes and clean-up.
 
-===========================================
 The original README file is included below:
-===========================================
 
 ================================================================================
                       OpenEphyra Question Answering System
@@ -42,7 +40,6 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
 OpenEphyra. If not, see <http://www.gnu.org/licenses/>.
-================================================================================
 
 Acknowledgements:
 -----------------
@@ -102,5 +99,4 @@ Please post to our forum or send an email to nico@cs.cmu.edu.
 Sponsors:
 ---------
 
-The OpenEphyra effort is supported in part by IBM Open Collaboration Agreement
-#W0652159.
+The OpenEphyra effort is supported in part by IBM Open Collaboration Agreement #W0652159.
