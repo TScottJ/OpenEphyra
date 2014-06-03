@@ -6,12 +6,13 @@ Normally, OpenEphyra is run as a standalone program, by executing one of the
 script files. However, the various classes and methods can also be called
 from another Java application.
 
-This doc describes how you can use OpenEphyra from a Java archive (.JAR) and
+This doc describes how you can use OpenEphyra from a Java archive and
 call its search functions programatically. This example is taken from a demo
 that was done using ProgramD, and shows how to pass a question to the
 OpenEphyra QA system and retrieve the resulting answer.
 
 The basic steps are:
+
 1. Build the OpenEphyra project, then export it to a Java archive (JAR) file.
 2. Add the JAR file to your host application's Java build path (libraries).
 3. Add import statements to your .java file for importing both the OpenEphyra
