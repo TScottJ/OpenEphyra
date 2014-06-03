@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="openephyra">
+    <property environment="env"/>
+    <property name="JRE_LIB" value="../../../../../usr/local/java/jdk1.7.0_51/jre/lib/rt.jar"/>
+    <property name="ECLIPSE_HOME" value="../../eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="Persisted container [/home/scottj/dev/projects/openephyra/bin for project [openephyra]].libraryclasspath"/>
+    <path id="openephyra.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="${JRE_LIB}"/>
+        <path refid="Persisted container [/home/scottj/dev/projects/openephyra/bin for project [openephyra]].libraryclasspath"/>
+        <pathelement location="lib/ml/maxent.jar"/>
+        <pathelement location="lib/ml/minorthird.jar"/>
+        <pathelement location="lib/nlp/jwnl.jar"/>
+        <pathelement location="lib/nlp/lingpipe.jar"/>
+        <pathelement location="lib/nlp/opennlp-tools.jar"/>
+        <pathelement location="lib/nlp/plingstemmer.jar"/>
+        <pathelement location="lib/nlp/snowball.jar"/>
+        <pathelement location="lib/nlp/stanford-ner.jar"/>
+        <pathelement location="lib/nlp/stanford-parser.jar"/>
+        <pathelement location="lib/nlp/stanford-postagger.jar"/>
+        <pathelement location="lib/qa/javelin.jar"/>
+        <pathelement location="lib/search/bing-search-java-sdk.jar"/>
+        <pathelement location="lib/search/googleapi.jar"/>
+        <pathelement location="lib/search/indri.jar"/>
+        <pathelement location="lib/search/yahoosearch.jar"/>
+        <pathelement location="lib/util/commons-logging.jar"/>
+        <pathelement location="lib/util/gson.jar"/>
+        <pathelement location="lib/util/htmlparser.jar"/>
+        <pathelement location="lib/util/log4j.jar"/>
+        <pathelement location="lib/util/trove.jar"/>
+        <pathelement location="lib/util/commons-codec-1.9.jar"/>
+    </path>
+    <path id="run.Run OpenEphyra.classpath">
+        <pathelement location="${JRE_LIB}"/>
+        <path refid="openephyra.classpath"/>
+    </path>
+    <path id="run.Run OpenEphyra.bootclasspath"/>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="openephyra.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Run OpenEphyra">
+        <java classname="info.ephyra.OpenEphyra" failonerror="true" fork="yes">
+            <jvmarg line="-server -Xms512m -Xmx1024m info.ephyra.OpenEphyra"/>
+            <classpath refid="run.Run OpenEphyra.classpath"/>
+            <bootclasspath>
+                <path refid="run.Run OpenEphyra.bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="/home/scottj/dev/projects/OpenEphyra/bin"/>
+	<classpathentry kind="lib" path="/usr/local/java/jdk1.7.0_51/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/ml/maxent.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/ml/minorthird.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/jwnl.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/lingpipe.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/opennlp-tools.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/plingstemmer.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/snowball.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/stanford-ner.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/stanford-parser.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/nlp/stanford-postagger.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/qa/javelin.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/search/bing-search-java-sdk.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/search/googleapi.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/search/indri.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/search/yahoosearch.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/gson.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/htmlparser.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/log4j.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/trove.jar"/>
+	<classpathentry kind="lib" path="/home/scottj/dev/projects/OpenEphyra/lib/util/commons-codec-1.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

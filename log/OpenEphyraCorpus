@@ -1,0 +1,267 @@
+<factoid>
+	<time>
+		Wed Mar 05 18:18:27 HKT 2014
+	</time>
+	<question>
+		who is the president?
+	</question>
+	<normalization>
+		who be the president
+	</normalization>
+	<answertype>
+		NEproperName->NEperson
+	</answertype>
+	<interpretation>
+		<property>
+			IDENTITY
+		</property>
+		<target>
+			president
+		</target>
+	</interpretation>
+	<interpretation>
+		<property>
+			NAME
+		</property>
+		<target>
+			president
+		</target>
+	</interpretation>
+	<querystring>
+		president
+	</querystring>
+	<querystring>
+		president
+	</querystring>
+	<querystring>
+		"president" president
+	</querystring>
+	<querystring>
+		"president" president
+	</querystring>
+	<querystring>
+		"the president is"
+	</querystring>
+	<querystring>
+		"is the president"
+	</querystring>
+	<querystring>
+		president
+	</querystring>
+	<querystring>
+		president
+	</querystring>
+	<querystring>
+		"president" president
+	</querystring>
+	<querystring>
+		"president" president
+	</querystring>
+	<querystring>
+		"the president is"
+	</querystring>
+	<querystring>
+		"is the president"
+	</querystring>
+<factoid>
+	<time>
+		Wed Mar 05 18:23:19 HKT 2014
+	</time>
+	<question>
+		how long is a day?
+	</question>
+	<normalization>
+		how long be a day
+	</normalization>
+	<answertype>
+		NEsize->NElength
+	</answertype>
+	<answertype>
+		NEduration
+	</answertype>
+	<interpretation>
+		<property>
+			DURATION
+		</property>
+		<target>
+			day
+		</target>
+	</interpretation>
+	<interpretation>
+		<property>
+			LENGTH
+		</property>
+		<target>
+			day
+		</target>
+	</interpretation>
+	<querystring>
+		long day
+	</querystring>
+	<querystring>
+		long (day OR "24-hour interval" OR "mean solar day" OR "solar day" OR "twenty-four hours" OR "twenty-four hour period")
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		long day
+	</querystring>
+	<querystring>
+		long (day OR "24-hour interval" OR "mean solar day" OR "solar day" OR "twenty-four hours" OR "twenty-four hour period")
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+<factoid>
+	<time>
+		Wed Mar 05 18:35:23 HKT 2014
+	</time>
+	<question>
+		how old am I?
+	</question>
+	<normalization>
+		how old be i
+	</normalization>
+	<answertype>
+		NEduration
+	</answertype>
+	<interpretation>
+		<property>
+			AGE
+		</property>
+		<target>
+			I
+		</target>
+	</interpretation>
+	<querystring>
+		old
+	</querystring>
+	<querystring>
+		old
+	</querystring>
+	<querystring>
+		"I" old
+	</querystring>
+	<querystring>
+		old
+	</querystring>
+	<querystring>
+		old
+	</querystring>
+	<querystring>
+		"I" old
+	</querystring>
+<factoid>
+	<time>
+		Wed Mar 05 19:03:22 HKT 2014
+	</time>
+	<question>
+		how long is a day?
+	</question>
+	<normalization>
+		how long be a day
+	</normalization>
+	<answertype>
+		NEsize->NElength
+	</answertype>
+	<answertype>
+		NEduration
+	</answertype>
+	<interpretation>
+		<property>
+			DURATION
+		</property>
+		<target>
+			day
+		</target>
+	</interpretation>
+	<interpretation>
+		<property>
+			LENGTH
+		</property>
+		<target>
+			day
+		</target>
+	</interpretation>
+	<querystring>
+		long day
+	</querystring>
+	<querystring>
+		long (day OR "24-hour interval" OR "mean solar day" OR "solar day" OR "twenty-four hours" OR "twenty-four hour period")
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		long day
+	</querystring>
+	<querystring>
+		long (day OR "24-hour interval" OR "mean solar day" OR "solar day" OR "twenty-four hours" OR "twenty-four hour period")
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+	<querystring>
+		"day" long day
+	</querystring>
+<factoid>
+	<time>
+		Thu Mar 13 04:06:26 HKT 2014
+	</time>
+	<question>
+		who is the president of america?
+	</question>
+	<normalization>
+		who be the president of america
+	</normalization>
+	<answertype>
+		NEproperName->NEperson
+	</answertype>
+	<interpretation>
+		<property>
+			LEADER
+		</property>
+		<target>
+			america
+		</target>
+	</interpretation>
+	<querystring>
+		president america
+	</querystring>
+	<querystring>
+		president (america OR US OR U.S.A. OR U.S. OR "United States" OR USA OR "United States of America" OR "the States")
+	</querystring>
+	<querystring>
+		"america" president america
+	</querystring>
+	<querystring>
+		"the president of america is"
+	</querystring>
+	<querystring>
+		"is the president of america"
+	</querystring>
+	<querystring>
+		president america
+	</querystring>
+	<querystring>
+		president (america OR US OR U.S.A. OR U.S. OR "United States" OR USA OR "United States of America" OR "the States")
+	</querystring>
+	<querystring>
+		"america" president america
+	</querystring>
+	<querystring>
+		"the president of america is"
+	</querystring>
+	<querystring>
+		"is the president of america"
+	</querystring>
