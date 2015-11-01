@@ -18,6 +18,8 @@ https://datamarket.azure.com/dataset/bing/searchweb. Currently, there is
 a free key available that allows up to 5,000 queries per month.
 - Miscelaneous minor fixes and clean-up.
 
+The simplest way to open/build/run OpenEphyra is using Eclipse with the Ant build file feature. In Eclipse, select "File->New->Project->Java->Java project from existing ant buildfile" and choose the existing build.xml file that's in the project root. You can also use OpenEphyra in a sort of "API mode" if you want to call its functions from another app. The instructions for that are explained in the API_MODE.MD file (you still need to build the project first).
+
 The original README file is included below:
 
 ================================================================================
