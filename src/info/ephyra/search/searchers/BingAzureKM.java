@@ -41,7 +41,7 @@ public class BingAzureKM extends KnowledgeMiner
     private static final String BING_AZURE_ID = "TODO";
     
     // Bing base URL for web queries:
-    private static final String BING_API_URL = "https://api.datamarket.azure.com/Bing/Search/Web?Query=%27";
+    private static final String BING_API_URL = "https://api.datamarket.azure.com/Bing/SearchWeb/Web?Query=%27";
 
     // Limits for search results - these can be adjusted according to desired
     // trade-off (higher results = more relevant answers, but much slower performance):
