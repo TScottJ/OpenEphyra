@@ -7,6 +7,8 @@ FYI, I've not been active in this repository since 2014 and understand it has fa
 
 ScottJ
 
+_____
+
 This repository contains a resurrected and repaired version of OpenEphyra
 <https://mu.lti.cs.cmu.edu/trac/Ephyra/wiki/OpenEphyra>. It was branched
 from the latest version of OpenEphyra on SourceForge
@@ -28,13 +30,13 @@ The simplest way to open/build/run OpenEphyra is using Eclipse with the Ant buil
 
 The original README file is included below:
 
-================================================================================
+==============================================================================
                       OpenEphyra Question Answering System
 
                         Nico Schlaefer (nico@cs.cmu.edu)
                            School of Computer Science
                            Carnegie Mellon University
-================================================================================
+==============================================================================
 Copyright (C) 2007-2011 Carnegie Mellon University.
 
 OpenEphyra is free software: you can redistribute it and/or modify it under the
