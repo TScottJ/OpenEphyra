@@ -1,9 +1,15 @@
 OpenEphyra
 ==========
 
+**Update: August, 2019**
+
+FYI, I've not been active in this repository since 2014 and understand it has fallen into disrepair, especially with respect to changes made to the Azure API. Apologies that I'm not able to respond to issues or other requests. I will, however, leave the repo here for the time being, in case someone finds it useful.
+
+ScottJ
+
 This repository contains a resurrected and repaired version of OpenEphyra
 <https://mu.lti.cs.cmu.edu/trac/Ephyra/wiki/OpenEphyra>. It was branched
-from the latest version of OpenEphyra on SoundForge
+from the latest version of OpenEphyra on SourceForge
 <http://sourceforge.net/projects/openephyra/>, as of March, 2014, for use
 in the OpenCog artificial intelligence system (Copyright (C) 2014
 [OpenCog Foundation](http://www.opencog.org/)).
